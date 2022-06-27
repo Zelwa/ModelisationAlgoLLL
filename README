@@ -1,0 +1,30 @@
+README - Projet modélisation de l'algorithme LLL par CFG
+
+Arborescence:
+
+Exemples: Ce Document contient quelles bases utilisées pour la modélisation par cfg.
+
+lll_algorithm: Ce document contient tous ce qui concernent la modélisation de l'algorithme par CFG
+
+    - Pour le faire , il suffit d'exécuter le fichier LLL.py (qui contient déjà une base).
+
+    - Pour modifier la base, il faut modifier la variable basis (basis = parser("../exemples/ajtai.txt")) dans la définition main du fichier LLL.py
+        |!| Attention : Le parser "parser" est utilisé uniquement pour la base "ajtai"
+                        Le parser "parser2" est utilisé pour les autres bases
+
+        Exemple pour lancer une base:
+
+            Pour "parser":
+
+                basis = parser("../exemples/ajtai.txt")
+
+            Pour "parser2"
+
+                basis = parser2("../exemples/basis1.txt")
+
+modelisation: Ce document contient tous les fichiers de la modélisation des algorithmes qui nous a permis de comprendre le fonctionnement du tas de sable et de CFG
+
+    - Pour le lancer, il suffit d'executer le fichier main.py
+
+
+Rendu: Ce document contient le rapport sous forme pdf.
